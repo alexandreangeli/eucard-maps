@@ -8,11 +8,6 @@ import 'leaflet/dist/leaflet.css'
 
 import utils from './utils/utils'
 
-import BootstrapVue from "bootstrap-vue"
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap-vue/dist/bootstrap-vue.css"
-
-
 // this part resolve an issue where the markers would not appear
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -21,8 +16,6 @@ L.Icon.Default.mergeOptions({
   iconUrl: require('leaflet/dist/images/marker-icon.png'),
   shadowUrl: require('leaflet/dist/images/marker-shadow.png')
 });
-
-Vue.use(BootstrapVue)
 
 Vue.prototype.$http = axios;
 Vue.prototype.$utils = utils;
