@@ -1,8 +1,9 @@
 # eucard-maps
 
-O objetivo desse projeto foi criar uma página em Vue.js que consome as rotas Posts e Photos da api https://jsonplaceholder.typicode.com/, exibindo as postagens em formato de tabelas, as fotos em formato de galeria, e permitindo edição/adição/exclusão dos dados.
+O objetivo desse projeto foi criar uma página em Vue.js que mostre todos os credenciados da rede de cartões benefícios Eucard, filtrando por tipo de cartão, estado e cidade. <br><br>
+O mapa foi feito utilizando o componente Leaflet, e os dados são buscados diretamento da api pública da empresa.
 <br><br>
-O projeto está rodando na URL https://alexandre-angeli-solluti.netlify.app/ <br>
+O projeto está rodando na URL https://eucardmaps.netlify.app/<br>
 
 ## Project setup
 ```
